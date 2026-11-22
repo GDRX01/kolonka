@@ -46,7 +46,7 @@ php artisan config:clear
 php artisan migrate:fresh --seed
 php artisan serve
 ```
-Проверка: откройте `http://127.0.0` — должен вернуться JSON.
+Проверка: откройте `http://127.0.0` - должен вернуться JSON.
 
 ## 5. Запуск Frontend
 Откройте **второй терминал** в корневой папке проекта:
