@@ -13,7 +13,7 @@ CREATE DATABASE kolonka CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 # 1. Создаём чистый Laravel и ставим Sanctum (на вопрос о миграциях отвечаем: no)
 composer create-project laravel/laravel api
 cd api
-php artisan install:api
+php artisan install:api # migration no
 cd ..
 
 # 2. Копируем файлы проекта поверх чистого Laravel (важно использовать /* и -Force)
