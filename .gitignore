@@ -1,0 +1,29 @@
+# Секреты
+.env
+.env.*
+!.env.example
+!.env.additions
+
+# Зависимости
+vendor/
+node_modules/
+
+# Сборка фронтенда
+frontend/dist/
+
+# Кэш, логи и загрузки Laravel
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/app/public/*
+backend/bootstrap/cache/*
+backend/public/storage
+
+# Базы данных и системные файлы
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
