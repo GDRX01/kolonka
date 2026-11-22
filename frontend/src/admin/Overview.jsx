@@ -50,7 +50,7 @@ export default function Overview() {
           <h2 className="text-lg font-medium">Активность за 14 дней</h2>
           <div className="mb-3 mt-3 flex gap-5 text-xs text-muted">
             <span className="flex items-center gap-2"><i className="h-2.5 w-2.5 rounded-sm bg-accent" /> Публикации</span>
-            <span className="flex items-center gap-2"><i className="h-2.5 w-2.5 rounded-sm bg-strong" /> Комментарии (×10)</span>
+            <span className="flex items-center gap-2"><i className="h-2.5 w-2.5 rounded-sm bg-strong" /> Комментарии</span>
           </div>
           <div className="flex h-56 items-end gap-1.5 border-b border-line sm:gap-3" role="img" aria-label="График активности за 14 дней">
             {d.activity.map((a) => (
